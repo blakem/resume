@@ -1,1 +1,112 @@
-My GitHub Resume Page
+---
+---
+<!DOCTYPE html>
+<head>
+<title>Cesar's Resume</title>
+<link rel="stylesheet" href="normalize.css" media="all"/>
+<link rel="stylesheet" href="web.css" media="screen"/>
+<link rel="stylesheet" href="print.css" media="print"/>
+
+<script type="text/javascript">
+	// fix for IE 8 and below. This helps create the DOM properly. See:
+	// http://blog.whatwg.org/supporting-new-elements-in-ie#comment-40743
+	document.createElement("header");
+	document.createElement("section");
+</script>
+</head>
+<body>
+
+<header>
+	<h1>Cesar Oliveira</h1>
+	<div>{% include contact.html %}</div>
+	<div><a href="https://github.com/cdolivei">github.com/cdolivei</a> &#x2022; <a href="https://bitbucket.org/cdolivei">bitbucket.org/cdolivei</a></div>
+</header>
+
+<section id="technical">
+	<h1>Technical Skills</h1>
+	<table class="technical">
+		<tr>
+			<td>Programming Languages</td>
+			<td>: JavaScript , Python, C#, C/C++</td>
+		</tr>
+		<tr>
+			<td>Other Skills</td>
+			<td>: HTML[5], CSS, jQuery, Django, SQL, Process Explorer, Git, Subversion, TFS</td>
+		</tr>
+		<tr>
+			<td>Operating Systems</td>
+			<td>: Linux, Windows, Mac</td>
+		</tr>
+	</table>
+</section>
+
+<section id="experience">
+	<h1>Work Experience</h1>
+	<div class="entry">
+		<div class="split">
+			<div>Web Developer</div><div>February 2012 - Current</div>
+		</div>
+		<div>
+			<span class="company">FoxyProxy Inc, Remote (contract)</span>
+			<ul>
+				<li>Integrated Google maps into the checkout process for proxy selection</li>
+				<li>Implementing a new design of the website using ZURB Foundation framework</li>
+				<li>Leading a rewrite of the website to move from PHP to django to increase maintainability, ease of development, and better localization support</li>
+			</ul>
+		</div>
+	</div>
+	<div class="entry">
+		<div class="split">
+			<div>Software Developer</div><div>November 2009 - May 2012</div>
+		</div>
+		<div>
+			<span class="company">NetSecure Technologies Ltd, Regina, SK</span>
+			<ul>
+				<li>Responsible for the release and testing of the main product, the SmartSwipe</li>
+				<li>Developed the Firefox add-on for SmartSwipe. Responsible for maintenance and future Firefox compatibility updates</li>
+				<li>Worked to extend SmartSwipe to read credit cards with chip and pin technology</li>
+				<li>Built the SmartSwipe installer and uninstaller using the open source NSIS project</li>
+				<li>Removed unused code and resources which reduced the installer size by nearly 75%</li>
+				<li>Developed a new user interface for our SmartSwipe product</li>
+				<li>Documented and developed features of our payment gateway</li>
+				<li>Developed automation tools for automatic e-mail response and boarding of new merchants</li>
+			</ul>
+		</div>
+	</div>
+	<div class="entry">
+		<div class="split">
+			<div>Web Developer</div><div>June 2009 - November 2009</div>
+		</div>
+		<div>
+			PPX, Toronto, ON
+			<ul>
+				<li>Created scripts to update dozens of websites, and ensured changes did not negatively impact websites layout</li>
+				<li>Fixed bugs in the internal reporting and analysis web site</li>
+				<li>Built and maintained Selenium test cases for dozens of generic websites</li>
+			</ul>
+		</div>
+	</div>
+	<div class="entry">
+		<div class="split">
+			<div>AMO (addons.mozilla.org) Intern</div><div>May 2008 - August 2008</div>
+		</div>
+		<div>
+			Mozilla Corporation, Mountain View, CA
+			<ul>
+				<li>Created an analysis tool in Python to collect information from over 97% of the 7000 add-ons hosted on addons.mozilla.org</li>
+				<li>Built an online version comparison tool for add-on reviewers to rapidly assess new version and reduce review queue times</li>
+				<li>Assisted new community editors in getting familiar with policies and procedures of being an AMO editor</li>
+				<li>Reviewed add-on JavaScript code for security vulnerabilities</li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+<section id="education">
+	<h1>Education and Training</h1>
+	<div>Seneca College of Applied Arts and Technology</div>
+	<div class="split">
+		<div>Bachelor of Software Development</div><div>2004-2008</div>
+	</div>
+</section>
+</body>
