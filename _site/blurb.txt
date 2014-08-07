@@ -1,0 +1,7 @@
+I've been writing software since I was about nine years old.  My father is a retired HP employee and I remember writing BASIC and Pascal on one of the first home computers back in the day.  
+
+Most recently, I was the lead backend developer at Handle.com, a Menlo Ventures funded startup, for two and a half years.  We built a suite of tools to help people manage their email inbox.  I used AWS extensively across the suite; everything from hosting the site, storing email attachments, and managing the user database was done using AWS.
+
+Prior to Handle, I worked for Aruba Networks in their AirWave department.  The software I helped developed there is still used by Starbucks (and many other clients) to secure the wireless connections they offer their clients.
+
+One other fun side-note:  I invented the first online calendar back in 1997 and called it Remind U-Mail.  It was the first service that would send you yearly email reminders for things like mother's day or your anniversary.
